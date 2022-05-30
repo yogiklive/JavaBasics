@@ -17,5 +17,10 @@ public class ReverseArray {
 		for (int i = 0; i < reverseArr.length; i++) {
 			System.out.println(reverseArr[i]);
 		}
+		
+		//Simple way reverse traversal
+		for(int i = arrInt.length-1;i>=0;i--){
+			System.out.println(arrInt[i]);
+		}
 	}
 }
