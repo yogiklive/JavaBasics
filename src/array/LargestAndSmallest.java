@@ -14,11 +14,12 @@ public class LargestAndSmallest {
 		
 		for(int i=1;i<arr.length;i++){
 		
-			if(minValue>arr[i]){
+			
+			if(arr[i]<minValue){
 				minValue=arr[i];
 			}
 
-			if(maxValue<arr[i]){
+			if(arr[i]>maxValue){
 				maxValue=arr[i];
 			}
 		}
